@@ -27,6 +27,16 @@ public class Console {
                     g.setLandlord(g.getFirstCall());
                 }
                 System.out.println("Landlord: Player" + (g.getLandlord() + 1));
+                System.out.println("The last three cards are:" + g.getLastThreeCards());
+                while (!g.isGameOver()) {
+                    int current = g.getCurrentPlayer() + 1;
+                    for (FTLPlayer p : g.getFtlPlayers()) {
+                        System.out.println(p.getHands());
+                    }
+                    System.out.println("Player" + current + " please choose cards:");
+                    g.round(scanner.nextLine());
+                    System.out.println("Player" + current + " chose:" + g.getCurrentTable());
+                }
             } else {
                 System.out.println("See you next time!");
                 break;
