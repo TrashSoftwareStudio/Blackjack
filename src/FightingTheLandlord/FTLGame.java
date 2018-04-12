@@ -6,6 +6,8 @@ import Deck.Dealer;
 
 import java.util.ArrayList;
 
+import static Deck.Card.equalCards;
+
 public class FTLGame {
     private FTLPlayer[] ftlPlayers = new FTLPlayer[3];
     private Dealer deck = new Dealer(1, true);
@@ -81,6 +83,52 @@ public class FTLGame {
         return -1;
     }
 
+
+
+    public static String suitKind(ArrayList<Card> suit) {
+        if (suit.size() == 1) {
+            return "Single";
+        } else if (suit.size() == 2) {
+            if (suit.get(0).getNumber() == 16 || suit.get(1).getNumber() == 17) {
+                return "Rocket";
+            } else {
+                return "Double";
+            }
+        } else if (suit.size() == 3) {
+            return "Triple";
+        } else if (suit.size() == 4) {
+            if (equalCards(suit)) {
+                return "Boom";
+            } else {
+                return "Three with one";
+            }
+        } else if (suit.size() == 5) {
+            if (equalCards(suit, 0, 1)) {
+                return "Three with two";
+            } else {
+                return "Straight";
+            }
+        } else if (suit.size() == 6) {
+            if (equalCards(suit, 0, 3) || equalCards(suit, 2, 5)) {
+                return "Four with two";
+            } else if (equalCards(suit, 0, 2) && equalCards(suit, 3, 5)) {
+                return "Plane";
+            } else if (equalCards(suit, 0, 1) && equalCards(suit, 2, 3) && equalCards(suit, 4, 5)) {
+                return "Double straight";
+            } else {
+                return "Straight";
+            }
+        }
+        return "";
+
+    }
+
+//    public boolean isValidSuit(ArrayList<Card> suit) {
+//        if (suit.size() == currentTable.size()) {
+//
+//        }
+//    }
+
     public void round(String input) {
         ArrayList<Card> temp = new ArrayList<>();
         for (String s: input.split(",")) {
@@ -93,5 +141,29 @@ public class FTLGame {
 
     public boolean isGameOver() {
         return winner() >= 0;
+    }
+
+    public static void main(String[] args) {
+        Card card1 = new Card(1,0);
+        Card card2 = new Card(1,1);
+        Card card3 = new Card(1,2);
+        Card card4 = new Card(1,3);
+        Card card5 = new Card(2,0);
+        Card card6 = new Card(2,1);
+//        Card card7 = new Card(2,2);
+        ArrayList<Card> suit = new ArrayList<>();
+        suit.add(card1);
+        suit.add(card2);
+        suit.add(card3);
+        suit.add(card4);
+        System.out.println(equalCards(suit));
+        suit.add(card5);
+        suit.add(card6);
+//        suit.add(card7);
+        System.out.println(equalCards(suit));
+        System.out.println(equalCards(suit, 0, 3));
+        System.out.println(equalCards(suit, 4, 5));
+        System.out.println(equalCards(suit, 2, 5));
+        System.out.println(suitKind(suit));
     }
 }

@@ -1,5 +1,7 @@
 package Deck;
 
+import java.util.ArrayList;
+
 public class Card {
     private int number;
     private int colour;
@@ -61,5 +63,18 @@ public class Card {
     @Override
     public String toString() {
         return "{" + getColourName() + getNumberName() + "}";
+    }
+
+    public static boolean equalCards(ArrayList<Card> suit, int start, int end) {
+        for (int i = start; i < end - 1; i ++) {
+            if (suit.get(i).getNumber() != suit.get(i + 1).getNumber()) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public static boolean equalCards(ArrayList<Card> suit) {
+        return equalCards(suit, 0, suit.size());
     }
 }

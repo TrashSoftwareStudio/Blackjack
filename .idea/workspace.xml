@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98d950d6-42ed-4119-8a28-16897ca73a58" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Cardgames/FightingTheLandlord/Console.class" afterPath="$PROJECT_DIR$/out/production/Cardgames/FightingTheLandlord/Console.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Cardgames/Deck/Card.class" afterPath="$PROJECT_DIR$/out/production/Cardgames/Deck/Card.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Cardgames/FightingTheLandlord/FTLGame.class" afterPath="$PROJECT_DIR$/out/production/Cardgames/FightingTheLandlord/FTLGame.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FightingTheLandlord/Console.java" afterPath="$PROJECT_DIR$/src/FightingTheLandlord/Console.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Deck/Card.java" afterPath="$PROJECT_DIR$/src/Deck/Card.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java" afterPath="$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,17 +21,11 @@
       <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Deck/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+            <state relative-caret-position="1618">
+              <caret line="78" column="5" lean-forward="false" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
               <folding>
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#1271#1272#0" expanded="true" />
-                <element signature="e#1307#1308#0" expanded="true" />
-                <element signature="e#1353#1354#0" expanded="true" />
-                <element signature="e#1421#1422#0" expanded="true" />
+                <element signature="e#1798#1799#0" expanded="true" />
+                <element signature="e#1853#1854#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,20 +58,20 @@
       <file leaf-file-name="FTLGame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1379">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="-161">
+              <caret line="118" column="34" lean-forward="false" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1431#1432#0" expanded="true" />
-                <element signature="e#1462#1463#0" expanded="true" />
+                <element signature="e#1468#1469#0" expanded="true" />
                 <element signature="e#1499#1500#0" expanded="true" />
-                <element signature="e#1535#1536#0" expanded="true" />
-                <element signature="e#1583#1584#0" expanded="true" />
-                <element signature="e#1618#1619#0" expanded="true" />
-                <element signature="e#1668#1669#0" expanded="true" />
+                <element signature="e#1536#1537#0" expanded="true" />
+                <element signature="e#1572#1573#0" expanded="true" />
+                <element signature="e#1620#1621#0" expanded="true" />
+                <element signature="e#1655#1656#0" expanded="true" />
                 <element signature="e#1705#1706#0" expanded="true" />
-                <element signature="e#2514#2515#0" expanded="true" />
-                <element signature="e#2550#2551#0" expanded="true" />
+                <element signature="e#1742#1743#0" expanded="true" />
+                <element signature="e#3973#3974#0" expanded="true" />
+                <element signature="e#4009#4010#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,10 +93,10 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1523486912411" expanded="true" signature="44260:44277" ph="..." />
-                <marker date="1523486912411" expanded="true" signature="44260:44295" ph="..." />
-                <marker date="1523486912411" expanded="true" signature="44260:44308" ph="..." />
-                <marker date="1523486912411" expanded="true" signature="44260:44323" ph="..." />
+                <marker date="1523492417167" expanded="true" signature="43015:43032" ph="..." />
+                <marker date="1523492417167" expanded="true" signature="43015:43050" ph="..." />
+                <marker date="1523492417167" expanded="true" signature="43015:43063" ph="..." />
+                <marker date="1523492417167" expanded="true" signature="43015:43078" ph="..." />
               </folding>
             </state>
           </provider>
@@ -123,7 +117,7 @@
       <file leaf-file-name="EmptyDeckException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Deck/EmptyDeckException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
+            <state relative-caret-position="108">
               <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
               <folding>
                 <element signature="e#115#116#0" expanded="true" />
@@ -155,11 +149,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/Deck/EmptyDeckException.java" />
         <option value="$PROJECT_DIR$/src/Interfaces/Player.java" />
-        <option value="$PROJECT_DIR$/src/Deck/Card.java" />
         <option value="$PROJECT_DIR$/src/FightingTheLandlord/FTLPlayer.java" />
         <option value="$PROJECT_DIR$/src/Deck/Dealer.java" />
-        <option value="$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java" />
         <option value="$PROJECT_DIR$/src/FightingTheLandlord/Console.java" />
+        <option value="$PROJECT_DIR$/src/Deck/Card.java" />
+        <option value="$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java" />
       </list>
     </option>
   </component>
@@ -241,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Console">
+  <component name="RunManager" selected="Application.FTLGame">
     <configuration name="Console" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -387,9 +381,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.Console" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Dealer" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FTLGame" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FTLGame" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Console" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Dealer" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +406,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -479,14 +473,8 @@
         <state relative-caret-position="864">
           <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
           <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
-            <element signature="e#1307#1308#0" expanded="true" />
-            <element signature="e#1353#1354#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1798#1799#0" expanded="true" />
+            <element signature="e#1853#1854#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -505,16 +493,16 @@
           <caret line="42" column="8" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1431#1432#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
             <element signature="e#1499#1500#0" expanded="true" />
-            <element signature="e#1535#1536#0" expanded="true" />
-            <element signature="e#1583#1584#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+            <element signature="e#1655#1656#0" expanded="true" />
             <element signature="e#1705#1706#0" expanded="true" />
-            <element signature="e#2514#2515#0" expanded="true" />
-            <element signature="e#2550#2551#0" expanded="true" />
+            <element signature="e#1742#1743#0" expanded="true" />
+            <element signature="e#3973#3974#0" expanded="true" />
+            <element signature="e#4009#4010#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -565,10 +553,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523486912411" expanded="true" signature="44260:44277" ph="..." />
-            <marker date="1523486912411" expanded="true" signature="44260:44295" ph="..." />
-            <marker date="1523486912411" expanded="true" signature="44260:44308" ph="..." />
-            <marker date="1523486912411" expanded="true" signature="44260:44323" ph="..." />
+            <marker date="1523492417167" expanded="true" signature="43015:43032" ph="..." />
+            <marker date="1523492417167" expanded="true" signature="43015:43050" ph="..." />
+            <marker date="1523492417167" expanded="true" signature="43015:43063" ph="..." />
+            <marker date="1523492417167" expanded="true" signature="43015:43078" ph="..." />
           </folding>
         </state>
       </provider>
@@ -580,35 +568,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Deck/EmptyDeckException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/Player.java" />
-    <entry file="file://$PROJECT_DIR$/src/Deck/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-          <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
-            <element signature="e#1307#1308#0" expanded="true" />
-            <element signature="e#1353#1354#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Interfaces/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -624,10 +584,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523486912411" expanded="true" signature="44260:44277" ph="..." />
-            <marker date="1523486912411" expanded="true" signature="44260:44295" ph="..." />
-            <marker date="1523486912411" expanded="true" signature="44260:44308" ph="..." />
-            <marker date="1523486912411" expanded="true" signature="44260:44323" ph="..." />
+            <marker date="1523492417167" expanded="true" signature="43015:43032" ph="..." />
+            <marker date="1523492417167" expanded="true" signature="43015:43050" ph="..." />
+            <marker date="1523492417167" expanded="true" signature="43015:43063" ph="..." />
+            <marker date="1523492417167" expanded="true" signature="43015:43078" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/Console.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1221">
+          <caret line="37" column="57" lean-forward="false" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Deck/EmptyDeckException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -652,30 +631,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/Console.java">
+    <entry file="file://$PROJECT_DIR$/src/Deck/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1221">
-          <caret line="37" column="57" lean-forward="false" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="1618">
+          <caret line="78" column="5" lean-forward="false" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="e#1798#1799#0" expanded="true" />
+            <element signature="e#1853#1854#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1379">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="-161">
+          <caret line="118" column="34" lean-forward="false" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1431#1432#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
             <element signature="e#1499#1500#0" expanded="true" />
-            <element signature="e#1535#1536#0" expanded="true" />
-            <element signature="e#1583#1584#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+            <element signature="e#1655#1656#0" expanded="true" />
             <element signature="e#1705#1706#0" expanded="true" />
-            <element signature="e#2514#2515#0" expanded="true" />
-            <element signature="e#2550#2551#0" expanded="true" />
+            <element signature="e#1742#1743#0" expanded="true" />
+            <element signature="e#3973#3974#0" expanded="true" />
+            <element signature="e#4009#4010#0" expanded="true" />
           </folding>
         </state>
       </provider>
