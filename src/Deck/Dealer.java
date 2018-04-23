@@ -43,9 +43,7 @@ public class Dealer {
         if (currentIndex >= deck.size()) {
             throw new EmptyDeckException();
         }
-        Card card = deck.get(currentIndex);
-        currentIndex++;
-        return card;
+        return deck.get(currentIndex++);
     }
 
     public static void main(String[] args) {
