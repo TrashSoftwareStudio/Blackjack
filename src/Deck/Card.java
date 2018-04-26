@@ -66,7 +66,7 @@ public class Card {
     }
 
     public static boolean equalCards(ArrayList<Card> suit, int start, int end) {
-        for (int i = start; i < end - 1; i ++) {
+        for (int i = start; i < end; i ++) {
             if (suit.get(i).getNumber() != suit.get(i + 1).getNumber()) {
                 return false;
             }
