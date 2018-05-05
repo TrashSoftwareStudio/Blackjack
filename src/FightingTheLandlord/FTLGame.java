@@ -7,6 +7,7 @@ import Deck.Dealer;
 import java.util.ArrayList;
 
 import static Deck.Card.equalCards;
+import static Deck.Rules.isStraight;
 
 public class FTLGame {
     private FTLPlayer[] ftlPlayers = new FTLPlayer[3];
@@ -81,15 +82,6 @@ public class FTLGame {
             if (p.getHands().isEmpty()) return p.getPlayerId();
         }
         return -1;
-    }
-
-    public static boolean isStraight(ArrayList<Card> suit) {
-        for (int i = 0 ; i < suit.size() - 1; i++) {
-            if (suit.get(i + 1).getNumber() != suit.get(i).getNumber() + 1) {
-                return false;
-            }
-        }
-        return true;
     }
 
     public static String suitKind(ArrayList<Card> suit) {
