@@ -75,6 +75,6 @@ public class Card {
     }
 
     public static boolean equalCards(ArrayList<Card> suit) {
-        return equalCards(suit, 0, suit.size());
+        return equalCards(suit, 0, suit.size() - 1);
     }
 }

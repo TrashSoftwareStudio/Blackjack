@@ -1,13 +1,12 @@
 package FightingTheLandlord;
 
-
 import Deck.Card;
 import Deck.Dealer;
 
 import java.util.ArrayList;
 
 import static Deck.Card.equalCards;
-import static Deck.Rules.isStraight;
+import static Deck.Rules.*;
 
 public class FTLGame {
     private FTLPlayer[] ftlPlayers = new FTLPlayer[3];
@@ -36,7 +35,7 @@ public class FTLGame {
             }
             ftlPlayers[i % 3].getHands().add(c);
         }
-        for (FTLPlayer p: ftlPlayers) p.sortHands();
+        for (FTLPlayer p : ftlPlayers) p.sortHands();
         for (int i = 0; i < 3; i++) {
             Card c = deck.deal();
             if (c.getNumber() < 3) {
@@ -78,7 +77,7 @@ public class FTLGame {
     }
 
     public int winner() {
-        for (FTLPlayer p: ftlPlayers) {
+        for (FTLPlayer p : ftlPlayers) {
             if (p.getHands().isEmpty()) return p.getPlayerId();
         }
         return -1;
@@ -94,48 +93,62 @@ public class FTLGame {
                 return "对子";
             }
         } else if (suit.size() == 3) {
-            return "三张";
+            if (containsTriple(suit)) {
+                return "三张";
+            }
         } else if (suit.size() == 4) {
             if (equalCards(suit)) {
                 return "炸弹";
-            } else {
+            } else if (containsTriple(suit)) {
                 return "三带一";
             }
         } else if (suit.size() == 5) {
-            if (equalCards(suit, 0, 1)) {
-                return "三带二";
+            if (containsTriple(suit)) {
+                if (equalCards(suit, 0, 1) || equalCards(suit, 3, 4)) {
+                    return "三带二";
+                }
             } else if (isStraight(suit)) {
                 return "顺子5";
             }
         } else if (suit.size() == 6) {
-            if (equalCards(suit, 0, 3) || equalCards(suit, 2, 5)) {
+            if (isFourWithTwo(suit)) {
                 return "四带二";
-            } else if (equalCards(suit, 0, 2) && equalCards(suit, 3, 5) && suit.get(3).getNumber() == suit.get(2).getNumber() + 1) {
+            } else if (isTripleStraight(suit)) {
                 return "飞机";
-            } else if (equalCards(suit, 0, 1) && equalCards(suit, 2, 3) && equalCards(suit, 4, 5) &&
-                    suit.get(2).getNumber() == suit.get(1).getNumber() + 1 && suit.get(4).getNumber() == suit.get(3).getNumber() + 1) {
+            } else if (isDoubleStraight(suit)) {
                 return "亲三对";
             } else if (isStraight(suit)) {
                 return "顺子6";
             }
-        } else if (suit.size() == 7){
+        } else if (suit.size() == 7) {
             if (isStraight(suit)) {
                 return "顺子7";
             }
+        } else if (suit.size() == 8) {
+            if (isFourWithTwo(suit)) {
+                return "四带二对";
+            } else if (isDoubleStraight(suit)) {
+                return "亲四对";
+            } else if (isStraight(suit)) {
+                return "顺子8";
+            } else if (isTripleStraight(new ArrayList<Card>(suit.subList(0,6)))
+                    || isTripleStraight(new ArrayList<Card>(suit.subList(1,7)))
+                    || isTripleStraight(new ArrayList<Card>(suit.subList(2,8)))) {
+                return "飞机带二";
+            }
         }
         return "";
-
     }
 
-//    public boolean isValidSuit(ArrayList<Card> suit) {
-//        if (suit.size() == currentTable.size()) {
-//
-//        }
-//    }
+    //    public boolean isValidSuit(ArrayList<Card> suit) {
+    //        if (suit.size() == currentTable.size()) {
+    //
+    //        }
+    //    }
 
     public void round(String input) {
         ArrayList<Card> temp = new ArrayList<>();
-        for (String s: input.split(",")) {
+        for (String s : input.split(",")) {
             temp.add(ftlPlayers[currentPlayer].getHands().get(Integer.parseInt(s) - 1));
         }
         ftlPlayers[currentPlayer].getHands().removeAll(temp);
@@ -148,13 +161,14 @@ public class FTLGame {
     }
 
     public static void main(String[] args) {
-        Card card1 = new Card(1,0);
-        Card card2 = new Card(1,1);
-        Card card3 = new Card(2,2);
-        Card card4 = new Card(2,3);
-        Card card5 = new Card(3,0);
-        Card card6 = new Card(3,1);
-//        Card card7 = new Card(2,2);
+        Card card1 = new Card(1, 0);
+        Card card2 = new Card(2, 1);
+        Card card3 = new Card(2, 2);
+        Card card4 = new Card(2, 3);
+        Card card5 = new Card(3, 0);
+        Card card6 = new Card(3, 1);
+        Card card7 = new Card(3,0);
+        Card card8 = new Card(4,1);
         ArrayList<Card> suit = new ArrayList<>();
         suit.add(card1);
         suit.add(card2);
@@ -164,7 +178,8 @@ public class FTLGame {
         System.out.println(isStraight(suit));
         suit.add(card5);
         suit.add(card6);
-//        suit.add(card7);
+        suit.add(card7);
+        suit.add(card8);
         System.out.println(equalCards(suit));
         System.out.println(equalCards(suit, 0, 1));
         System.out.println(equalCards(suit, 4, 5));
