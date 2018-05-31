@@ -6,6 +6,9 @@ import static Deck.Card.equalCards;
 
 public class Rules {
     public static boolean isStraight(ArrayList<Card> suit) {
+        if (suit.get(suit.size() - 1).getNumber() >= 15) {
+            return false;
+        }
         for (int i = 0 ; i < suit.size() - 1; i++) {
             if (suit.get(i + 1).getNumber() != suit.get(i).getNumber() + 1) {
                 return false;
@@ -80,5 +83,28 @@ public class Rules {
                 return r == 2;
             }
         }
+    }
+
+    /**
+     * Find the key card in a suit used for comparison.
+     * @param baseNum Number of cards in a base suit. BaseNum could only be 3 or 4.
+     *                For example, baseNum = 3 in "飞机4" and baseNum = 4 in "四带二".
+     * @return the key card in a suit used for comparison.
+     */
+    public static Card findKeyCard(ArrayList<Card> suit, int baseNum) {
+        if (baseNum == 4) {
+            for (int i = 0; i < suit.size() - 3; i++) {
+                if (equalCards(suit, i, i + 3)) {
+                    return suit.get(i);
+                }
+            }
+        } else {
+            for (int i = 0; i < suit.size() - 2; i++) {
+                if (equalCards(suit, i, i + 2)) {
+                    return suit.get(i);
+                }
+            }
+        }
+        return null;
     }
 }

@@ -33,9 +33,21 @@ public class Console {
                     for (FTLPlayer p : g.getFtlPlayers()) {
                         System.out.println(p.getHands());
                     }
-                    System.out.println("Player" + current + " please choose cards:");
-                    g.round(scanner.nextLine());
-                    System.out.println("Player" + current + " chose:" + g.getCurrentTable());
+                    if (g.getLastPlayer() == current - 1) {
+                        System.out.println("Player" + current + " please choose cards (split with ',' and no space):");
+                    } else {
+                        System.out.println("Player" + current + " please choose cards (split with ',' and no space) or pass (type 'p'):");
+                    }
+                    int key = g.round(scanner.nextLine());
+                    while (key == 0) {
+                        System.out.println("Invalid suit! Please choose a valid suit:");
+                        key = g.round(scanner.nextLine());
+                    }
+                    if (key == 1) {
+                        System.out.println("Player" + current + " chose:" + g.getCurrentTable());
+                    } else if (key == 2) {
+                        System.out.println("Player" + current + " passed.");
+                    }
                 }
             } else {
                 System.out.println("See you next time!");
