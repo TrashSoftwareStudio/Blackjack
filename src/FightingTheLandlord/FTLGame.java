@@ -97,7 +97,7 @@ public class FTLGame {
         } else if (suit.size() == 2) {
             if (suit.get(0).getNumber() == 16 || suit.get(1).getNumber() == 17) {
                 return "炸弹";
-            } else {
+            } else if (equalCards(suit)) {
                 return "对子";
             }
         } else if (suit.size() == 3) {
@@ -255,8 +255,14 @@ public class FTLGame {
             r = 2;
             return r;
         }
+        ArrayList<String> temp = new ArrayList<>();
         for (String s : input.split(",")) {
             s = s.trim();
+            if (!temp.contains(s)) {
+                temp.add(s);
+            }
+        }
+        for (String s : temp) {
             chosenSuit.add(ftlPlayers[currentPlayer].getHands().get(Integer.parseInt(s) - 1));
         }
         if (isValidSuit(chosenSuit)) {
