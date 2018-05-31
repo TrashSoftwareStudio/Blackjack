@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="98d950d6-42ed-4119-8a28-16897ca73a58" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Cardgames/FightingTheLandlord/FTLGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cardgames/FightingTheLandlord/FTLGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Deck/Rules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deck/Rules.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FightingTheLandlord/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FightingTheLandlord/Console.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java" afterDir="false" />
     </list>
@@ -69,8 +67,8 @@
       <file leaf-file-name="FTLGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="243" lean-forward="true" selection-start-line="243" selection-end-line="243" />
+            <state relative-caret-position="330">
+              <caret line="258" column="21" selection-start-line="258" selection-start-column="21" selection-end-line="258" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#9212#9213#0" expanded="true" />
@@ -83,8 +81,8 @@
       <file leaf-file-name="Console.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/Console.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="38" column="138" lean-forward="true" selection-start-line="38" selection-start-column="138" selection-end-line="38" selection-end-column="138" />
+            <state relative-caret-position="209">
+              <caret line="35" column="59" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -118,8 +116,8 @@
         <option value="$PROJECT_DIR$/src/Poker/Console.java" />
         <option value="$PROJECT_DIR$/src/Poker/PokerGame.java" />
         <option value="$PROJECT_DIR$/src/Deck/Rules.java" />
-        <option value="$PROJECT_DIR$/src/FightingTheLandlord/Console.java" />
         <option value="$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java" />
+        <option value="$PROJECT_DIR$/src/FightingTheLandlord/Console.java" />
       </list>
     </option>
   </component>
@@ -778,18 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Poker/PokerGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -838,10 +824,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="243" lean-forward="true" selection-start-line="243" selection-end-line="243" />
+        <state relative-caret-position="330">
+          <caret line="258" column="21" selection-start-line="258" selection-start-column="21" selection-end-line="258" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#9212#9213#0" expanded="true" />
@@ -852,8 +850,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/Console.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="38" column="138" lean-forward="true" selection-start-line="38" selection-start-column="138" selection-end-line="38" selection-end-column="138" />
+        <state relative-caret-position="209">
+          <caret line="35" column="59" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
         </state>
       </provider>
     </entry>

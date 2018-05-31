@@ -34,9 +34,9 @@ public class Console {
                         System.out.println(p.getHands());
                     }
                     if (g.getLastPlayer() == current - 1) {
-                        System.out.println("Player" + current + " please choose cards (split with ',' and no space):");
+                        System.out.println("Player" + current + " please choose cards (split with ','):");
                     } else {
-                        System.out.println("Player" + current + " please choose cards (split with ',' and no space) or pass (type 'p'):");
+                        System.out.println("Player" + current + " please choose cards (split with ',') or pass (type 'p'):");
                     }
                     int key = g.round(scanner.nextLine());
                     while (key == 0) {

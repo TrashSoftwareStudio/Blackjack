@@ -256,6 +256,7 @@ public class FTLGame {
             return r;
         }
         for (String s : input.split(",")) {
+            s = s.trim();
             chosenSuit.add(ftlPlayers[currentPlayer].getHands().get(Integer.parseInt(s) - 1));
         }
         if (isValidSuit(chosenSuit)) {
