@@ -9,9 +9,8 @@ import java.util.Comparator;
 public class FTLPlayer implements Player {
     private int playerId;
     private ArrayList<Card> hands = new ArrayList<>();
-    private boolean isLandlord;
 
-    public FTLPlayer(int playerId) {
+    FTLPlayer(int playerId) {
         this.playerId = playerId;
     }
 
@@ -23,14 +22,6 @@ public class FTLPlayer implements Player {
     @Override
     public ArrayList<Card> getHands() {
         return hands;
-    }
-
-    public boolean isLandlord() {
-        return isLandlord;
-    }
-
-    public void setLandlord() {
-        isLandlord = true;
     }
 
     @Override

@@ -9,7 +9,7 @@ import java.util.Objects;
 import static Deck.Card.equalCards;
 import static Deck.Rules.*;
 
-public class FTLGame {
+class FTLGame {
     private FTLPlayer[] ftlPlayers = new FTLPlayer[3];
     private Dealer deck = new Dealer(1, true);
     private int firstCall;
@@ -19,14 +19,15 @@ public class FTLGame {
     private ArrayList<Card> currentTable = new ArrayList<>();
     private ArrayList<Card> chosenSuit = new ArrayList<>();
     private int lastPlayer = -1;
+    private int winner = -1;
 
-    public FTLGame() {
+    FTLGame() {
         ftlPlayers[0] = new FTLPlayer(0);
         ftlPlayers[1] = new FTLPlayer(1);
         ftlPlayers[2] = new FTLPlayer(2);
     }
 
-    public void deal() {
+    void deal() {
         double r = Math.random();
         int m = (int) Math.round(r * 50);
         firstCall = m % 3;
@@ -48,35 +49,42 @@ public class FTLGame {
         }
     }
 
-    public FTLPlayer[] getFtlPlayers() {
+    FTLPlayer[] getFtlPlayers() {
         return ftlPlayers;
     }
 
-    public int getFirstCall() {
+    int getFirstCall() {
         return firstCall;
     }
 
-    public int getLandlord() {
+    int getLandlord() {
         return landlord;
     }
 
-    public int getCurrentPlayer() {
+    int getCurrentPlayer() {
         return currentPlayer;
     }
 
-    public ArrayList<Card> getCurrentTable() {
+    ArrayList<Card> getCurrentTable() {
         return currentTable;
     }
 
-    public ArrayList<Card> getLastThreeCards() {
+    ArrayList<Card> getLastThreeCards() {
         return lastThreeCards;
     }
 
-    public int getLastPlayer() {
+    int getLastPlayer() {
         return lastPlayer;
     }
 
-    public void setLandlord(int landlord) {
+    String getWinner() {
+        if (winner == landlord) {
+            return "Landlord wins!";
+        }
+        return "Farmers win!";
+    }
+
+    void setLandlord(int landlord) {
         this.landlord = landlord;
         currentPlayer = landlord;
         lastPlayer = landlord;
@@ -84,14 +92,10 @@ public class FTLGame {
         ftlPlayers[landlord].sortHands();
     }
 
-    public int winner() {
-        for (FTLPlayer p : ftlPlayers) {
-            if (p.getHands().isEmpty()) return p.getPlayerId();
-        }
-        return -1;
-    }
-
-    public static String suitKind(ArrayList<Card> suit) {
+    /**
+     * A database for FTLGame to check the type of a suit.
+     */
+    private static String suitKind(ArrayList<Card> suit) {
         if (suit.size() == 1) {
             return "单牌";
         } else if (suit.size() == 2) {
@@ -220,7 +224,10 @@ public class FTLGame {
         return "";
     }
 
-    public boolean isValidSuit(ArrayList<Card> suit) {
+    /**
+     * Return whether the player's chosen suit is valid.
+     */
+    private boolean isValidSuit(ArrayList<Card> suit) {
         String n = suitKind(suit);
         if (currentTable.size() == 0) {
             return !n.equals("");
@@ -242,7 +249,10 @@ public class FTLGame {
         return false;
     }
 
-    public int round(String input) {
+    /**
+     * Read the indexes of cards from <input> and play this suit if it is valid.
+     */
+    int round(String input) {
         int r = 0;
         if (currentPlayer == lastPlayer) {
             currentTable.clear();
@@ -258,7 +268,7 @@ public class FTLGame {
         ArrayList<String> temp = new ArrayList<>();
         for (String s : input.split(",")) {
             s = s.trim();
-            if (!temp.contains(s)) {
+            if (!temp.contains(s) && !s.equals("")) {
                 temp.add(s);
             }
         }
@@ -277,39 +287,49 @@ public class FTLGame {
         return r;
     }
 
-    public boolean isGameOver() {
-        return winner() >= 0;
+    /**
+     * Check whether the game is over.
+     */
+    boolean isGameOver() {
+        for (FTLPlayer p : ftlPlayers) {
+            if (p.getHands().isEmpty()) winner = p.getPlayerId();
+        }
+        return winner >= 0;
     }
 
-    public static void main(String[] args) {
-        Card card1 = new Card(10, 0);
-        Card card2 = new Card(11, 1);
-        Card card3 = new Card(12, 2);
-        Card card4 = new Card(13, 3);
-        Card card5 = new Card(14, 0);
-//        Card card6 = new Card(15, 1);
-//        Card card7 = new Card(3, 0);
-//        Card card8 = new Card(4, 1);
-        ArrayList<Card> suit = new ArrayList<>();
-        suit.add(card1);
-        suit.add(card2);
-        suit.add(card3);
-        suit.add(card4);
+//    public static void main(String[] args) {
+//        Card card1 = new Card(3, 0);
+//        Card card2 = new Card(15, 1);
+//        Card card3 = new Card(15, 2);
+//        Card card4 = new Card(15, 3);
+//        Card card5 = new Card(6, 0);
+//        Card card6 = new Card(13, 1);
+//        Card card7 = new Card(13, 0);
+//        Card card8 = new Card(13, 1);
+//        ArrayList<Card> suit = new ArrayList<>();
+//        ArrayList<Card> suit2 = new ArrayList<>();
+//        suit.add(card1);
+//        suit.add(card2);
+//        suit.add(card3);
+//        suit.add(card4);
 //        System.out.println(equalCards(suit));
 //        System.out.println(isStraight(suit));
-        suit.add(card5);
-//        suit.add(card6);
-//        suit.add(card7);
-//        suit.add(card8);
+//        suit2.add(card5);
+//        suit2.add(card6);
+//        suit2.add(card7);
+//        suit2.add(card8);
 //        System.out.println(equalCards(suit));
 //        System.out.println(equalCards(suit, 0, 1));
 //        System.out.println(equalCards(suit, 4, 5));
 //        System.out.println(equalCards(suit, 2, 5));
 //        System.out.println(isStraight(suit));
-        System.out.println(suit);
-        System.out.println(suitKind(suit));
-        System.out.println(suitKind(suit).contains("顺子"));
-        System.out.println(suitKind(suit).charAt(2));
-        System.out.println(((int) suitKind(suit).charAt(2) - '0') == 5);
-    }
+//        System.out.println(suit);
+//        System.out.println(suitKind(suit));
+//        System.out.println(suit2);
+//        System.out.println(suitKind(suit2));
+//        System.out.println(Objects.requireNonNull(findKeyCard(suit, 3)).getNumber() > Objects.requireNonNull(findKeyCard(suit2, 3)).getNumber());
+//        System.out.println(suitKind(suit).contains("顺子"));
+//        System.out.println(suitKind(suit).charAt(2));
+//        System.out.println(((int) suitKind(suit).charAt(2) - '0') == 5);
+//    }
 }

@@ -6,7 +6,7 @@ public class Console {
     public static void main(String[] args) {
         System.out.println("Welcome to Fighting The Landlord!");
         while (true) {
-            System.out.println("Start game? (y/n):");
+            System.out.println("Start a new game? (y/n):");
             Scanner scanner = new Scanner(System.in);
             if (scanner.nextLine().equals("y")) {
                 FTLGame g = new FTLGame();
@@ -17,13 +17,11 @@ public class Console {
                 for (int i = 0; i < 3; i++) {
                     System.out.println("Player" + ((g.getFirstCall() + i) % 3 + 1) + " wants to be the landlord? (y/n):");
                     if (scanner.nextLine().equals("y")) {
-                        g.getFtlPlayers()[(g.getFirstCall() + i) % 3].setLandlord();
                         g.setLandlord((g.getFirstCall() + i) % 3);
                         break;
                     }
                 }
                 if (g.getLandlord() < 0) {
-                    g.getFtlPlayers()[g.getFirstCall()].setLandlord();
                     g.setLandlord(g.getFirstCall());
                 }
                 System.out.println("Landlord: Player" + (g.getLandlord() + 1));
@@ -49,6 +47,7 @@ public class Console {
                         System.out.println("Player" + current + " passed.");
                     }
                 }
+                System.out.println("Game Over! " + g.getWinner());
             } else {
                 System.out.println("See you next time!");
                 break;
