@@ -6,7 +6,7 @@ public class Console {
     public static void main(String[] args) {
         System.out.println("Welcome to Fighting The Landlord!");
         while (true) {
-            System.out.println("Start game? (y/n):");
+            System.out.println("Start a new game? (y/n):");
             Scanner scanner = new Scanner(System.in);
             if (scanner.nextLine().equals("y")) {
                 FTLGame g = new FTLGame();
@@ -17,13 +17,11 @@ public class Console {
                 for (int i = 0; i < 3; i++) {
                     System.out.println("Player" + ((g.getFirstCall() + i) % 3 + 1) + " wants to be the landlord? (y/n):");
                     if (scanner.nextLine().equals("y")) {
-                        g.getFtlPlayers()[(g.getFirstCall() + i) % 3].setLandlord();
                         g.setLandlord((g.getFirstCall() + i) % 3);
                         break;
                     }
                 }
                 if (g.getLandlord() < 0) {
-                    g.getFtlPlayers()[g.getFirstCall()].setLandlord();
                     g.setLandlord(g.getFirstCall());
                 }
                 System.out.println("Landlord: Player" + (g.getLandlord() + 1));
@@ -33,10 +31,23 @@ public class Console {
                     for (FTLPlayer p : g.getFtlPlayers()) {
                         System.out.println(p.getHands());
                     }
-                    System.out.println("Player" + current + " please choose cards:");
-                    g.round(scanner.nextLine());
-                    System.out.println("Player" + current + " chose:" + g.getCurrentTable());
+                    if (g.getLastPlayer() == current - 1) {
+                        System.out.println("Player" + current + " please choose cards (split with ','):");
+                    } else {
+                        System.out.println("Player" + current + " please choose cards (split with ',') or pass (type 'p'):");
+                    }
+                    int key = g.round(scanner.nextLine());
+                    while (key == 0) {
+                        System.out.println("Invalid suit! Please choose a valid suit:");
+                        key = g.round(scanner.nextLine());
+                    }
+                    if (key == 1) {
+                        System.out.println("Player" + current + " chose:" + g.getCurrentTable());
+                    } else if (key == 2) {
+                        System.out.println("Player" + current + " passed.");
+                    }
                 }
+                System.out.println("Game Over! " + g.getWinner());
             } else {
                 System.out.println("See you next time!");
                 break;

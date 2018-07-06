@@ -1,4 +1,4 @@
-package FightingTheLandlord;
+package Poker;
 
 import Deck.Card;
 import Interfaces.Player;
@@ -6,11 +6,11 @@ import Interfaces.Player;
 import java.util.ArrayList;
 import java.util.Comparator;
 
-public class FTLPlayer implements Player {
+public class PokerPlayer implements Player {
     private int playerId;
     private ArrayList<Card> hands = new ArrayList<>();
 
-    FTLPlayer(int playerId) {
+    public PokerPlayer(int playerId) {
         this.playerId = playerId;
     }
 
@@ -26,11 +26,11 @@ public class FTLPlayer implements Player {
 
     @Override
     public void sortHands() {
-        hands.sort(new FTLCardsComparator());
+        hands.sort(new Poker.PokerCardsComparator());
     }
 }
 
-class FTLCardsComparator implements Comparator<Card> {
+class PokerCardsComparator implements Comparator<Card> {
     @Override
     public int compare(Card o1, Card o2) {
         int numCompResult = Integer.compare(o1.getNumber(), o2.getNumber());
