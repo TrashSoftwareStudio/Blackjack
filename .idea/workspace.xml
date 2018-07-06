@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98d950d6-42ed-4119-8a28-16897ca73a58" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Cardgames/Deck/Card.class" afterPath="$PROJECT_DIR$/out/production/Cardgames/Deck/Card.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Cardgames/FightingTheLandlord/FTLGame.class" afterPath="$PROJECT_DIR$/out/production/Cardgames/FightingTheLandlord/FTLGame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Cardgames/TenAndHalf/Console.class" afterPath="$PROJECT_DIR$/out/production/Cardgames/TenAndHalf/Console.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Deck/Card.java" afterPath="$PROJECT_DIR$/src/Deck/Card.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java" afterPath="$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,149 +14,196 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Deck/Card.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="69" column="73" lean-forward="true" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
-              <folding>
-                <element signature="e#1794#1795#0" expanded="true" />
-                <element signature="e#1849#1850#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dealer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Deck/Dealer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FTLPlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FTLGame.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Console.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/Console.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="37" column="57" lean-forward="false" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1524739336116" expanded="true" signature="66395:66412" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="66395:66430" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="66395:66443" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="66395:66458" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="66493:68645" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="66506:68630" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="66560:66855" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="66579:66840" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="66642:66820" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="66682:66786" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="66703:66764" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="66905:67232" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="66924:67217" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="67019:67197" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="67059:67163" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="67080:67141" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="67283:67548" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="67302:67533" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="67335:67513" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="67375:67479" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="67396:67457" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="67591:67897" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="67610:67882" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="67684:67862" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="67724:67828" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="67745:67806" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="67948:68299" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="67967:68284" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="68047:68264" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="68087:68230" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="68108:68208" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="68351:68616" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="68370:68601" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="68403:68581" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="68443:68547" ph="..." />
-                <marker date="1524739336116" expanded="true" signature="68464:68525" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Interfaces/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmptyDeckException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Deck/EmptyDeckException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-              <folding>
-                <element signature="e#115#116#0" expanded="true" />
-                <element signature="e#138#139#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5995494">
+      <split-first>
+        <splitter split-orientation="horizontal" split-proportion="0.5">
+          <split-first>
+            <splitter split-orientation="vertical" split-proportion="0.5">
+              <split-first>
+                <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+                  <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
+                    <entry file="file://$PROJECT_DIR$/src/Deck/Card.java">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="1647">
+                          <caret line="69" column="73" lean-forward="false" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
+                          <folding>
+                            <element signature="e#1794#1795#0" expanded="true" />
+                            <element signature="e#1849#1850#0" expanded="true" />
+                          </folding>
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                  <file leaf-file-name="Dealer.java" pinned="false" current-in-tab="false">
+                    <entry file="file://$PROJECT_DIR$/src/Deck/Dealer.java">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="1377">
+                          <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+                          <folding />
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                  <file leaf-file-name="FTLPlayer.java" pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLPlayer.java">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="756">
+                          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+                          <folding>
+                            <element signature="imports" expanded="true" />
+                            <element signature="e#704#705#0" expanded="true" />
+                            <element signature="e#756#757#0" expanded="true" />
+                          </folding>
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                  <file leaf-file-name="FTLGame.java" pinned="false" current-in-tab="false">
+                    <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="862">
+                          <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+                          <folding>
+                            <element signature="imports" expanded="true" />
+                          </folding>
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                  <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
+                    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="135">
+                          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+                          <folding />
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                  <file leaf-file-name="Console.java" pinned="false" current-in-tab="false">
+                    <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/Console.java">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="999">
+                          <caret line="37" column="57" lean-forward="false" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+                          <folding />
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                  <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+                    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="0">
+                          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                          <folding>
+                            <marker date="1530835652950" expanded="true" signature="60306:60346" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="60306:60363" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="60306:60381" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="60306:60394" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="60306:60409" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="60444:62596" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="60457:62581" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="60511:60806" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="60530:60791" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="60593:60771" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="60633:60737" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="60654:60715" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="60856:61183" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="60875:61168" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="60970:61148" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="61010:61114" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="61031:61092" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="61234:61499" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="61253:61484" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="61286:61464" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="61326:61430" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="61347:61408" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="61542:61848" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="61561:61833" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="61635:61813" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="61675:61779" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="61696:61757" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="61899:62250" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="61918:62235" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="61998:62215" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="62038:62181" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="62059:62159" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="62302:62567" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="62321:62552" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="62354:62532" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="62394:62498" ph="..." />
+                            <marker date="1530835652950" expanded="true" signature="62415:62476" ph="..." />
+                          </folding>
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                  <file leaf-file-name="EmptyDeckException.java" pinned="false" current-in-tab="false">
+                    <entry file="file://$PROJECT_DIR$/src/Deck/EmptyDeckException.java">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="81">
+                          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+                          <folding>
+                            <element signature="e#115#116#0" expanded="true" />
+                            <element signature="e#138#139#0" expanded="true" />
+                          </folding>
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                </leaf>
+              </split-first>
+              <split-second>
+                <leaf>
+                  <file leaf-file-name="FTLGame.java" pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="291">
+                          <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+                          <folding>
+                            <element signature="imports" expanded="true" />
+                          </folding>
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                </leaf>
+              </split-second>
+            </splitter>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="Dealer.java" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/Deck/Dealer.java">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="1377">
+                      <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="FTLGame.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="907">
+                  <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -192,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -213,8 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,36 +271,14 @@
               <item name="Cardgames" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Cardgames" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cardgames" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Deck" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cardgames" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cardgames" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FightingTheLandlord" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cardgames" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cardgames" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cardgames" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cardgames" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TenAndHalf" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -277,6 +294,25 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.FTLGame">
+    <configuration name="Console (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="TenAndHalf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="TenAndHalf.Console" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Cardgames" />
+      <envs />
+    </configuration>
     <configuration name="Console" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -415,16 +451,18 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Dealer" />
       <item index="1" class="java.lang.String" itemvalue="Application.FTLGame" />
       <item index="2" class="java.lang.String" itemvalue="Application.Console" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Console (1)" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.FTLGame" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Console" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Dealer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Console (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Console" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Dealer" />
       </list>
     </recent_temporary>
   </component>
@@ -445,23 +483,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="3862" height="2122" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.075260416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -472,6 +508,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -508,10 +545,229 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/Console.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="37" column="57" lean-forward="false" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1530835652950" expanded="true" signature="60306:60346" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60363" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60381" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60394" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60409" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60444:62596" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60457:62581" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60511:60806" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60530:60791" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60593:60771" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60633:60737" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60654:60715" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60856:61183" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60875:61168" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60970:61148" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61010:61114" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61031:61092" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61234:61499" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61253:61484" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61286:61464" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61326:61430" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61347:61408" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61542:61848" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61561:61833" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61635:61813" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61675:61779" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61696:61757" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61899:62250" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61918:62235" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61998:62215" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62038:62181" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62059:62159" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62302:62567" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62321:62552" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62354:62532" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62394:62498" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62415:62476" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interfaces/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Deck/EmptyDeckException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1917">
+          <caret line="88" column="29" lean-forward="false" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Deck/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="69" column="73" lean-forward="false" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
+          <folding>
+            <element signature="e#1794#1795#0" expanded="true" />
+            <element signature="e#1849#1850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Deck/Dealer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/Console.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="57" lean-forward="false" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1530835652950" expanded="true" signature="60306:60346" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60363" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60381" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60394" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60409" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60444:62596" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60457:62581" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60511:60806" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60530:60791" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60593:60771" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60633:60737" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60654:60715" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60856:61183" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60875:61168" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60970:61148" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61010:61114" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61031:61092" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61234:61499" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61253:61484" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61286:61464" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61326:61430" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61347:61408" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61542:61848" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61561:61833" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61635:61813" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61675:61779" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61696:61757" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61899:62250" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61918:62235" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61998:62215" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62038:62181" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62059:62159" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62302:62567" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62321:62552" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62354:62532" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62394:62498" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62415:62476" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interfaces/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Deck/EmptyDeckException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Deck/Card.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
@@ -556,42 +812,43 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1524739336116" expanded="true" signature="66395:66412" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66395:66430" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66395:66443" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66395:66458" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66493:68645" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66506:68630" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66560:66855" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66579:66840" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66642:66820" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66682:66786" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66703:66764" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66905:67232" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66924:67217" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67019:67197" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67059:67163" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67080:67141" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67283:67548" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67302:67533" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67335:67513" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67375:67479" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67396:67457" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67591:67897" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67610:67882" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67684:67862" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67724:67828" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67745:67806" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67948:68299" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67967:68284" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68047:68264" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68087:68230" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68108:68208" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68351:68616" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68370:68601" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68403:68581" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68443:68547" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68464:68525" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60346" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60363" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60381" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60394" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60409" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60444:62596" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60457:62581" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60511:60806" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60530:60791" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60593:60771" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60633:60737" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60654:60715" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60856:61183" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60875:61168" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60970:61148" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61010:61114" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61031:61092" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61234:61499" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61253:61484" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61286:61464" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61326:61430" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61347:61408" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61542:61848" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61561:61833" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61635:61813" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61675:61779" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61696:61757" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61899:62250" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61918:62235" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61998:62215" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62038:62181" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62059:62159" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62302:62567" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62321:62552" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62354:62532" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62394:62498" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62415:62476" ph="..." />
           </folding>
         </state>
       </provider>
@@ -659,42 +916,43 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1524739336116" expanded="true" signature="66395:66412" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66395:66430" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66395:66443" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66395:66458" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66493:68645" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66506:68630" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66560:66855" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66579:66840" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66642:66820" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66682:66786" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66703:66764" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66905:67232" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66924:67217" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67019:67197" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67059:67163" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67080:67141" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67283:67548" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67302:67533" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67335:67513" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67375:67479" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67396:67457" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67591:67897" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67610:67882" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67684:67862" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67724:67828" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67745:67806" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67948:68299" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67967:68284" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68047:68264" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68087:68230" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68108:68208" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68351:68616" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68370:68601" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68403:68581" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68443:68547" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68464:68525" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60346" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60363" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60381" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60394" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60409" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60444:62596" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60457:62581" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60511:60806" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60530:60791" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60593:60771" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60633:60737" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60654:60715" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60856:61183" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60875:61168" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60970:61148" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61010:61114" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61031:61092" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61234:61499" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61253:61484" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61286:61464" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61326:61430" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61347:61408" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61542:61848" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61561:61833" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61635:61813" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61675:61779" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61696:61757" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61899:62250" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61918:62235" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61998:62215" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62038:62181" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62059:62159" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62302:62567" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62321:62552" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62354:62532" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62394:62498" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62415:62476" ph="..." />
           </folding>
         </state>
       </provider>
@@ -805,42 +1063,43 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1524739336116" expanded="true" signature="66395:66412" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66395:66430" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66395:66443" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66395:66458" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66493:68645" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66506:68630" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66560:66855" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66579:66840" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66642:66820" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66682:66786" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66703:66764" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66905:67232" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66924:67217" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67019:67197" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67059:67163" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67080:67141" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67283:67548" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67302:67533" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67335:67513" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67375:67479" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67396:67457" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67591:67897" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67610:67882" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67684:67862" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67724:67828" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67745:67806" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67948:68299" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67967:68284" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68047:68264" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68087:68230" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68108:68208" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68351:68616" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68370:68601" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68403:68581" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68443:68547" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68464:68525" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60346" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60363" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60381" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60394" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60409" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60444:62596" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60457:62581" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60511:60806" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60530:60791" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60593:60771" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60633:60737" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60654:60715" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60856:61183" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60875:61168" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60970:61148" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61010:61114" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61031:61092" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61234:61499" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61253:61484" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61286:61464" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61326:61430" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61347:61408" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61542:61848" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61561:61833" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61635:61813" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61675:61779" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61696:61757" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61899:62250" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61918:62235" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61998:62215" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62038:62181" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62059:62159" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62302:62567" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62321:62552" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62354:62532" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62394:62498" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62415:62476" ph="..." />
           </folding>
         </state>
       </provider>
@@ -855,7 +1114,7 @@
     <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/Player.java" />
     <entry file="file://$PROJECT_DIR$/src/Interfaces/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="189">
           <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -863,54 +1122,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1524739336116" expanded="true" signature="66395:66412" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66395:66430" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66395:66443" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66395:66458" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66493:68645" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66506:68630" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66560:66855" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66579:66840" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66642:66820" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66682:66786" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66703:66764" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66905:67232" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="66924:67217" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67019:67197" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67059:67163" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67080:67141" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67283:67548" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67302:67533" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67335:67513" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67375:67479" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67396:67457" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67591:67897" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67610:67882" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67684:67862" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67724:67828" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67745:67806" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67948:68299" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="67967:68284" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68047:68264" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68087:68230" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68108:68208" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68351:68616" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68370:68601" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68403:68581" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68443:68547" ph="..." />
-            <marker date="1524739336116" expanded="true" signature="68464:68525" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/Console.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
+        <state relative-caret-position="999">
           <caret line="37" column="57" lean-forward="false" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
           <folding />
         </state>
@@ -918,7 +1132,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Deck/EmptyDeckException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
+        <state relative-caret-position="81">
           <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding>
             <element signature="e#115#116#0" expanded="true" />
@@ -927,38 +1141,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Deck/Dealer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TenAndHalf/TAHGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Deck/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="69" column="73" lean-forward="true" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
+        <state relative-caret-position="1647">
+          <caret line="69" column="73" lean-forward="false" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
           <folding>
             <element signature="e#1794#1795#0" expanded="true" />
             <element signature="e#1849#1850#0" expanded="true" />
@@ -968,18 +1154,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="135">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1530835652950" expanded="true" signature="60306:60346" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60363" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60381" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60394" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60306:60409" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60444:62596" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60457:62581" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60511:60806" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60530:60791" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60593:60771" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60633:60737" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60654:60715" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60856:61183" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60875:61168" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="60970:61148" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61010:61114" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61031:61092" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61234:61499" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61253:61484" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61286:61464" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61326:61430" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61347:61408" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61542:61848" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61561:61833" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61635:61813" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61675:61779" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61696:61757" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61899:62250" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61918:62235" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="61998:62215" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62038:62181" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62059:62159" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62302:62567" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62321:62552" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62354:62532" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62394:62498" ph="..." />
+            <marker date="1530835652950" expanded="true" signature="62415:62476" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TenAndHalf/TAHGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-929">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TenAndHalf/Console.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Deck/Dealer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+        <state relative-caret-position="862">
+          <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FightingTheLandlord/FTLPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
           </folding>
         </state>
       </provider>
