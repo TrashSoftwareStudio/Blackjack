@@ -10,7 +10,9 @@ public class Console {
             System.out.println("Start game? (y/n):");
             Scanner scanner = new Scanner(System.in);
             if (scanner.nextLine().equals("y")) {
-                PokerGame g = new PokerGame(4);
+                System.out.println("How many players?:");
+                int numOfPlayers = Integer.parseInt(scanner.nextLine());
+                PokerGame g = new PokerGame(numOfPlayers);
                 g.deal();
                 for (PokerPlayer p : g.getPokerPlayers()) {
                     System.out.println(p.getHands());

@@ -3,6 +3,8 @@ package Poker;
 import Deck.Card;
 import Deck.Dealer;
 
+import java.util.ArrayList;
+
 public class PokerGame {
     private Dealer deck = new Dealer(1, false);
     private PokerPlayer[] pokerPlayers;
@@ -40,4 +42,8 @@ public class PokerGame {
     public boolean isGameOver() {
         return winner() >= 0;
     }
+
+//    public static String suitKind(ArrayList<Card> suit) {
+//
+//    }
 }
